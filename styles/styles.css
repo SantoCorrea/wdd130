@@ -1,20 +1,25 @@
+:root {
+    --padding: 1rem;
+    --heading-background-color: darkblue;
+}
+
 main {
     max-width: 840px;
 }
 
 nav {
-    background-color: darkblue;
-    padding: 10px;
+    background-color: var(--heading-background-color);
+    padding: var(--padding);
 }
 
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: var(--padding);
 }
 
 h1 {
-    color: darkblue;
+    color: var(--heading-background-color);
 }
 
 main img {
