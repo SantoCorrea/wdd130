@@ -120,7 +120,7 @@ footer img {
     background-color: var(--accent2-color);
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -256,13 +256,13 @@ h2 {
     align-items: center;
 }
 
-.true-info h1 {
+.title-info h1 {
     position: relative;
     top: 20px;
     width: 100%;
     padding: 16px;
     text-align: center;
-    background-color: antiquewhite;
+
 }
 
 .true-info {
